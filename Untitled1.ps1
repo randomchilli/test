@@ -1,0 +1,1 @@
+﻿powershell -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile("https://imgs.xkcd.com/comics/the_mother_of_all_suspicious_files.png","$env:UserProfile\desktop\files.png");invoke-item $env:UserProfile\desktop\files.png
